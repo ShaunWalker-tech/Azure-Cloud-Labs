@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+
+# SSH keys - never commit these
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
