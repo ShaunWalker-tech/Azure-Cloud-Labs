@@ -6,8 +6,9 @@ Hands-on Azure labs I completed while building my cloud engineering skills. Ever
 
 | # | Lab | What I built | Key skills |
 |---|-----|--------------|-----------|
-| 01 | Static website on Blob Storage | A public website hosted with no server | Resource groups, storage accounts, static hosting, PaaS / serverless |
+| 01 | [Static website on Blob Storage](./lab01-static-website) | A public website hosted with no server | Resource groups, storage accounts, static hosting, PaaS / serverless |
 | 02 | [Secure 2-tier web application](./lab02-secure-2tier-app) | A public web tier and a private database tier on one VNet | Virtual networks, subnetting, NSGs, jump-host SSH access |
+| 03 | [Modernizing to PaaS and securing secrets](./lab03-paas-keyvault) | Replaced a VM database with Azure SQL, secured its password with Key Vault and Managed Identity | Azure SQL Database, Key Vault, RBAC, Managed Identity, observability |
 
 More labs will be added as I complete them.
 
