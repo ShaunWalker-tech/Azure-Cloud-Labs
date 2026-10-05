@@ -174,6 +174,7 @@ Back in the portal, `rg-lab04-tf-shaun` was gone. Only `NetworkWatcherRG` remain
 - **The NSG has no rules.** It was added to prove the incremental-change workflow, not to filter traffic, and it isn't associated with the subnet.
 - **State files are not committed.** The repo's `.gitignore` already excludes `.terraform/`, `*.tfstate`, and `*.tfvars`, so only `main.tf` is in this folder. State files can contain resource IDs and sometimes secrets.
 - **No saved plan file.** Terraform warned that I didn't use `-out`, so `apply` recalculates the plan instead of running a saved one. That's fine for a solo lab; on a team you'd save the plan so what was reviewed is exactly what gets applied.
+- **Screenshots are redacted.** My subscription ID and account email are blurred in the terminal output and portal header.
 - **No "1 added" screenshot for the NSG apply.** I captured the `yes` prompt but not the completion line; the portal screenshot showing `nsg-web` confirms it was created.
 
 ## Troubleshooting Reference

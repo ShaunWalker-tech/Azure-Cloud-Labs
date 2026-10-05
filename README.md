@@ -10,6 +10,7 @@ Hands-on Azure labs I completed while building my cloud engineering skills. Ever
 | 02 | [Secure 2-tier web application](./lab02-secure-2tier-app) | A public web tier and a private database tier on one VNet | Virtual networks, subnetting, NSGs, jump-host SSH access |
 | 03 | [Modernizing to PaaS and securing secrets](./lab03-paas-keyvault) | Replaced a VM database with Azure SQL, secured its password with Key Vault and Managed Identity | Azure SQL Database, Key Vault, RBAC, Managed Identity, observability |
 | 04 | [Infrastructure as Code with Terraform](./lab04-terraform-iac) | A resource group, VNet, subnet, and NSG deployed, changed, and destroyed entirely from code | Terraform, IaC, state management, init / plan / apply / destroy |
+| 05 | [Governance and security hardening](./lab05-governance-security) | A Reader-only test user, a VM size policy, and a $50 budget with alerts on one resource group | RBAC, Entra ID, Azure Policy, Cost Management, NIST CSF |
 
 More labs will be added as I complete them.
 
