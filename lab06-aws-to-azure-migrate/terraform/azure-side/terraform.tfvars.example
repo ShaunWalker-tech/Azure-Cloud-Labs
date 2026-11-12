@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and fill in. Never commit terraform.tfvars.
+yourname                   = "yourname"
+location                   = "Central US"
+appliance_admin_password   = "ChangeMe#Passw0rd1"
+replication_admin_password = "ChangeMe#Passw0rd2"
+ec2_public_ip              = "x.x.x.x"
