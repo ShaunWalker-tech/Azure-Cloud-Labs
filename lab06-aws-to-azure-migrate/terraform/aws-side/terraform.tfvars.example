@@ -1,6 +1,0 @@
-# Copy to terraform.tfvars and fill in. Never commit terraform.tfvars.
-aws_region           = "us-east-1"
-yourname             = "yourname"
-windows_ami          = "ami-xxxxxxxxxxxxxxxxx"
-admin_password       = "ChangeMe#Passw0rd"
-migrate_appliance_ip = "x.x.x.x"
