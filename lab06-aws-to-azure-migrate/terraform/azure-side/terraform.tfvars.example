@@ -1,0 +1,18 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+
+yourname                   = "yourname"
+location                   = "Central US"
+appliance_admin_password   = "PickAnother#Passw0rd1"
+replication_admin_password = "PickAnother#Passw0rd2"
+
+# Recommended: lock RDP to your own public IP.
+# admin_source_prefix = "203.0.113.10/32"
+
+# Phase 3-4 (discovery + assessment)
+deploy_discovery_appliance   = true
+deploy_replication_appliance = false
+
+# Phase 5-6 (replication + cutover): flip both, and paste the EC2 public IP
+# deploy_discovery_appliance   = false
+# deploy_replication_appliance = true
+# ec2_public_ip                = "EC2-PUBLIC-IP"

@@ -1,0 +1,13 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+# Every text value needs quotes, or Terraform fails with "Variables not allowed".
+
+aws_region     = "us-east-1"
+yourname       = "yourname"
+windows_ami    = "ami-PASTE-YOURS-HERE"
+admin_password = "PickYourOwn#Passw0rd"
+
+# Recommended: lock RDP/HTTPS to your own public IP.
+# admin_cidrs = ["203.0.113.10/32"]
+
+# Phase 3: add the discovery appliance IP. Phase 5: switch to the replication appliance IP.
+# winrm_allowed_cidrs = ["APPLIANCE-PUBLIC-IP/32"]

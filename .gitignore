@@ -12,3 +12,7 @@ crash.log
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Azure Migrate / ASR credentials - never commit these
+*.VaultCredentials
+**/ASR/config.json
